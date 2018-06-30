@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>LS Line</title>
+		
+		<style>
+		BODY{
+			margin: 0;
+		}
+
+		canvas{
+			width: 100%;
+			height: 100%;
+		}
+		</style>
+		<script src="math.min.js" type="text/javascript"></script>
+	</head>
+
+	<body>
+		<p>
+			<br />
+			<br />
+			<br />
+		</p>
+		<div style="text-align: center;"> 
+		<canvas id="canvas" style="width:600px; height:600px; border: 2px solid #73AD21;"  width="300" height="300"></canvas>
+		</div>
+		
+		<script src="leastSqLine.js"></script>
+		<p>
+			<input type="button"  value="Refresh" onclick="refreshCanvas()"/>
+			<input type="button"  value="Fit" onclick="fitLine()"/>
+
+		</p>
+
+	</body>
+</html>
